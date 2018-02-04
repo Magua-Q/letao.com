@@ -1,0 +1,129 @@
+a:hover,
+ a:active,
+ a:focus {
+     text-decoration: none;
+ }
+.bg-login {
+    background-color: #222d32;
+}
+.mt_150 {
+    margin-top: 150px;
+}
+.mr_50 {
+    margin-right: 50px;
+}
+.mb_15 {
+    margin-bottom: 15px;
+}
+/*Ö÷Ò³Ãæ---²à±ßÀ¸*/
+aside {
+    height: 100%;
+    width: 180px;
+    background-color: #222d32;
+    position: absolute;
+}
+.login a {
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+    background-color: #337ab7;
+    line-height: 50px;
+}
+.user {
+    height: 110px;
+    width:100%;
+    padding:30px 20px;
+}
+.user img {
+    height: 50px;
+    width: 50px;
+    float:left;
+    border-radius: 50%;
+}
+.user span {
+    font-size: 16px;
+    color: #fff;
+    float:right;
+    line-height: 55px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.menu ul li {
+    width: 180px;
+
+}
+.menu ul li .now {
+    color: #ffffff;
+    /*background-color: #1d1f21;*/
+}
+.menu ul li span {
+    margin-right: 10px;
+}
+.menu ul li a {
+    display: block;
+    height: 25px;
+    width:100%;
+    text-align: center;
+}
+.menu ul li .child a {
+    margin-left: 10px;
+    font-size: 12px;
+}
+.ad_section {
+    margin-left: 180px;
+    height: 100%;
+}
+.ad_section.margin-left {
+    margin-left:0;
+}
+.ad_nav {
+    height: 50px;
+    background-color: #337ab7;
+}
+.ad_nav .left{
+    margin: 15px 0;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.ad_nav .right{
+    margin: 15px 0;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #fff;
+    float: right;
+}
+.nav-link {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.breadcrumb li:last-of-type a {
+    color:#999;
+}
+.ad-content {
+    margin-top: 20px;
+}
+.ad-content .picTable {
+    float: left;
+    width:45%;
+    height: 400px;
+    /*border: 1px solid red;*/
+}
+.ad-content .picTable:first-child {
+    margin-right:10%;
+}
+.table th,.table td{
+    text-align: center;
+}
+.page{
+   float:right;
+}

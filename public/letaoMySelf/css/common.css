@@ -1,0 +1,143 @@
+.lt_container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.lt_topBar {
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #069;
+    z-index: 3;
+}
+
+.lt_topBar .btn_left {
+    left: 0;
+    margin-top: -5px;
+}
+
+.lt_topBar h3 {
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.lt_topBar p {
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.lt_topBar a {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    color: #fff;
+}
+
+.lt_content {
+    height: 100%;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    background-color: #fff;
+
+}
+.mui-scroll-wrapper {
+    top: 45px;
+    bottom: 55px;
+}
+
+/*产品块*/
+.lt_product {
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.lt_product .item {
+    width: 48%;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 5px #ccc;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.lt_product .item:nth-child(even) {
+    margin-left: 4%;
+}
+
+.lt_product .item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.lt_product .mui-ellipsis-2 {
+    height: 41px;
+}
+
+.lt_product .item p {
+    font-size: 12px;
+}
+
+.lt_product .item p span:first-child {
+    color: red;
+}
+
+.lt_product .item p span:last-child {
+    color: grey;
+    text-decoration: line-through;
+}
+
+/* 底部标签 */
+.lt_tabBar {
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #069;
+    z-index: 2;
+}
+
+.lt_tabBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lt_tabBar ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lt_tabBar ul li.now a {
+    color: darkorange;
+}
+
+.lt_tabBar ul li.now a p {
+    color: darkorange;
+}
+
+.lt_tabBar ul li a {
+    color: #fff;
+}
+
+.lt_tabBar ul li a p {
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
